@@ -15,7 +15,7 @@
 ## Testing
 1. Open the mvc app and visit the **/weather** route which is a protected route.
 2. If you're not yet authenticated, you'll be redirected to the identity server to enter your credentials.
-3. Enter the username "bob" and password "bob" as well.
+3. Enter "bob" for both username and password.
 4. After authentication, you'll see the weather cards which the mvc app retrieved from the secured api route in the solution.
 
 ## Technologies used
