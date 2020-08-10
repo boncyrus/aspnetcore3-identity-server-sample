@@ -1,0 +1,13 @@
+﻿@model AuthenticationServer.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Identity server login</h1>
+<form asp-controller="Account" asp-action="Login" method="post">
+    <input asp-for="ReturnUrl" placeholder="ReturnUrl" type="hidden" />
+    <input asp-for="Username" placeholder="Username" />
+    <input asp-for="Password" type="password" placeholder="Username" />
+    <button type="submit">Login</button>
+</form>

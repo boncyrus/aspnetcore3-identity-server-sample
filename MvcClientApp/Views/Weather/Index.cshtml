@@ -1,0 +1,19 @@
+﻿@model WeatherIndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Weather data</h1>
+
+<div>
+    @foreach (var item in Model.WeatherData)
+    {
+        <div class="card mb-1" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">@item.Date</h5>
+                <p class="card-text">@item.Summary</p>
+            </div>
+        </div>
+    }
+</div>
