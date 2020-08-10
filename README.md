@@ -1,5 +1,5 @@
 
-# asp.net core mvc with api and identity server
+# ASP.NET Core MVC with API and Identity Server
 
 ## Overview
   This repository contains a sample code where an mvc app is authenticated by an open id connect provider which happens to be the identity server project in this solution. The mvc app can access the secured api included in the project using JWT that it receives from the identity server.
